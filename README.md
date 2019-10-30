@@ -1,18 +1,16 @@
 # Zip-List-of-Files-and-Folders-in-PHP
 Zip a list of files and/or folders into an archive using a PHP function
 
-* 	ZIP a list of files and folders
+ 	ZIP a list of files and folders
 	-------------------------------
-*
 	Folders will be zipped recursively.
 	If the destination zip file exists the file will be overwritten.
 	Usage:
 		Zip('$ziplist,'/path/to/compressed.zip',true);
 	where $ziplist is a comma and space separated list of the form
 		$ziplist = '../ItFigures, ../ItFigures.html, ../favicon.ico';
-					^ a folder		^ a file			^ a file
-	*
-	*
+				^ a folder	^ a file	^ a file
+		
 	Third argrument sets zip structure:
 
 	 IF third argrument to `true` files and subfolders will be added recursively under
@@ -41,7 +39,7 @@ Zip a list of files and/or folders into an archive using a PHP function
 		--- file 6
 		ItFigures.html file
 		favicon.ico file
-*
+
 	Code modified from stackoverflow-dot-com/users/89771/alix-axel
 	by Bob Wright, 10/2019
-*/
+
